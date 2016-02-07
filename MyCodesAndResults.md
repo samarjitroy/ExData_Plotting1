@@ -1,21 +1,14 @@
 
-## loadPlotData.R
-
-The common code to load data. It is called from all four main scripts: plot1.R, plot2.R, plot3.R and plot4.R.
-
-* Download data from "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
-* Unzip data file
-* Load Data for "2007-02-01", "2007-02-02" only as data frame
-	
-
 ## plot1.R
 
 The Plot1 script (plot1.R) does the following:
 
-1. Souce loadPlotData.R - The common code to load required data.	 
-2. set plot Device (480x480) as png file
-3. Create Histogram 
-4. Close Device file
+1. Download data from "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip" (function: getDataFileUnzip)
+2. Unzip and extract data file (function: getDataFileUnzip)
+3. Load Data for "2007-02-01", "2007-02-02" as data frame (function: loadPlotData)
+4. set plot Device (480x480) as png file (function: plot1)
+5. Create Histogram (function: plot1)
+6. Close Device file (function: plot1)
 
 ## Running the script
 To run the script, source `plot1.R`. After running, you will see the following output as the script works:
@@ -43,10 +36,12 @@ To run the script, source `plot1.R`. After running, you will see the following o
 
 The Plot2 script (plot2.R) does the following:
 
-1. Souce loadPlotData.R - The common code to load required data.	 
-2. set plot Device (480x480) as png file
-3. Plotting line 
-4. Close Device file
+1. Download data from "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip" (function: getDataFileUnzip)
+2. Unzip and extract data file (function: getDataFileUnzip)
+3. Load Data for "2007-02-01", "2007-02-02" as data frame (function: loadPlotData)
+4. set plot Device (480x480) as png file (function: plot2)
+5. Plotting line (function: plot2)
+6. Close Device file (function: plot2)
 
 ## Running the script
 To run the script, source `plot2.R`. After running, you will see the following output as the script works:
@@ -74,10 +69,12 @@ To run the script, source `plot2.R`. After running, you will see the following o
 
 The Plot3 script (plot3.R) does the following:
 
-1. Souce loadPlotData.R - The common code to load required data.	 
-2. set plot Device (480x480) as png file
-3. Plot and line 
-4. Close Device file
+1. Download data from "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip" (function: getDataFileUnzip)
+2. Unzip and extract data file (function: getDataFileUnzip)
+3. Load Data for "2007-02-01", "2007-02-02" as data frame (function: loadPlotData)
+4. set plot Device (480x480) as png file (function: plot3)
+5. Plot and line (function: plot3)
+6. Close Device file (function: plot3)
 
 ## Running the script
 To run the script, source `plot3.R`. After running, you will see the following output as the script works:
@@ -106,11 +103,13 @@ To run the script, source `plot3.R`. After running, you will see the following o
 
 The Plot4 script (plot4.R) does the following:
 
-1. Souce loadPlotData.R - The common code to load required data.	 
-2. set plot Device (480x480) as png file
-3. setting multi-paneled plot
-4. Plot on panel one by one
-5. Close Device file
+1. Download data from "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip" (function: getDataFileUnzip)
+2. Unzip and extract data file (function: getDataFileUnzip)
+3. Load Data for "2007-02-01", "2007-02-02" as data frame (function: loadPlotData)
+4. set plot Device (480x480) as png file (function: plot4)
+5. setting multi-paneled plot (function: plot4)
+6. Plot on panel one by one (function: plot4)
+7. Close Device file (function: plot4)
 
 ## Running the script
 To run the script, source `plot4.R`. After running, you will see the following output as the script works:
